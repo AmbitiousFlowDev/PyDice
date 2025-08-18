@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>299</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>379</width>
+    <height>299</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>379</width>
+    <height>299</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Roll Or Leave</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resource/resources.qrc">
+    <normaloff>:/Icons/assets/icon.png</normaloff>:/Icons/assets/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="MainGridLayout">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1" rowspan="2" colspan="2">
+     <widget class="QGroupBox" name="LabelBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="StatusLabel">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Keep it moving… or better yet, just leave. 😒&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="RollTwiceButton">
+      <property name="text">
+       <string>Roll Twice</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QGroupBox" name="DiceGroupBox">
+      <property name="title">
+       <string>Dice</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="FirstDicePixmap">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../resource/resources.qrc">:/Dices/assets/diceGreenAlt2.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" rowspan="2" alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="SecondDicePixmap">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../resource/resources.qrc">:/Dices/assets/diceGreenAlt4.png</pixmap>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QLabel" name="FooterLabel">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;© 2025 Roll Or Leave. Open Source under GNU 3.0v&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="RollOnceButton">
+      <property name="text">
+       <string>Roll Once</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../resource/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

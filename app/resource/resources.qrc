@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="Dices">
+    <file>assets/diceGreenAlt1.png</file>
+    <file>assets/diceGreenAlt2.png</file>
+    <file>assets/diceGreenAlt3.png</file>
+    <file>assets/diceGreenAlt4.png</file>
+    <file>assets/diceGreenAlt5.png</file>
+    <file>assets/diceGreenAlt6.png</file>
+  </qresource>
+  <qresource prefix="Sounds">
+    <file>assets/roll.wav</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>assets/icon.png</file>
+  </qresource>
+</RCC>
