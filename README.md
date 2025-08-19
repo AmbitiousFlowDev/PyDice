@@ -1,8 +1,10 @@
 # 🎲 PyDice - Simple PySide6 Dice Roller
 
+![Demo Screenshot](app/resource/assets/icon.png) 
+
 *A lightweight, fun dice-rolling application built with Python and PySide6.*
 
-![Demo Screenshot](app/resource/assets/icon.png) 
+
 
 ## ✨ Features
 
@@ -11,8 +13,6 @@
 - **Sleek GUI**: Minimalist and intuitive interface.
 - **Sound Effects**: Dice roll sound for added immersion.
 - **Cross-Platform**: Works on Windows, macOS, and Linux.
-
----
 
 ## 🚀 Getting Started
 
@@ -40,8 +40,6 @@ python main.py
 # or
 py main.py
 ```
-
----
 
 ## 🗂️ Project Structure
 
@@ -76,25 +74,17 @@ py main.py
 └── .gitignore
 ```
 
----
-
 ## 📜 License
 
 This project is licensed under the **GNU GPL-3.0**—see [LICENSE.md](LICENSE.md) for details.
-
----
 
 ## 🤝 Contributing
 
 - **Issues**: Report bugs or suggest features [here](https://github.com/AmbitiousFlowDev/dice-roller/issues).
 - **Pull Requests**: Welcome! Fork, improve, and submit.
 
----
-
 ## 💡 Why I Built This
 
 A fun weekend project to explore PySide6 and share a simple, nostalgic dice game.
-
----
 
 *Crafted with ♥ by AmbitiousFlowDev*
