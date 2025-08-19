@@ -2,9 +2,7 @@
 
 *A lightweight, fun dice-rolling application built with Python and PySide6.*
 
-![Demo Screenshot](app/resource/assets/icon.png) <!-- Replace with actual screenshot if available -->
-
----
+![Demo Screenshot](app/resource/assets/icon.png) 
 
 ## ✨ Features
 
