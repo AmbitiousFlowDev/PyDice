@@ -5,7 +5,6 @@
 *A lightweight, fun dice-rolling application built with Python and PySide6.*
 
 
-
 ## ✨ Features
 
 - **Single or Double Roll**: Roll one die or two dice with a click.
